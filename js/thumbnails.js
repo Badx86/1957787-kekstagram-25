@@ -1,4 +1,4 @@
-import { multipleObject } from './data.js';
+import {multipleObject} from './data.js';
 
 const photos = multipleObject();
 
