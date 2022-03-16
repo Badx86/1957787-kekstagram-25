@@ -49,9 +49,6 @@ const MAX_AVATAR_ID = 6;
 
 const MAX_OBJECTS = 25;
 
-const AVATAR_WIDTH = '35';
-const AVATAR_HEIGHT = '35';
-
 const uniqueID = (function() {
   let id = 0;
   return function() { return id++; };
@@ -93,4 +90,4 @@ function generatePhotos(countPhoto) {
 
 const multipleObject = () => generatePhotos(MAX_OBJECTS);
 
-export {multipleObject, AVATAR_WIDTH, AVATAR_HEIGHT};
+export {multipleObject};

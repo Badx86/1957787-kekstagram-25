@@ -16,14 +16,4 @@ function getRandomArrayElement(ARR) {
   return ARR[getRandomPositiveInteger(0, ARR.length-1)];
 }
 
-// Создаем клавишу закрытия окна по нажатию
-const isEscKey = (key) => key === 'Esc' || key === 'Escape';
-
-// Создаем имена тега и класса
-const doElement = (tagName, className) => {
-  const element = document.createElement(tagName);
-  element.classList.add(className);
-  return element;
-};
-
-export {getRandomArrayElement, getRandomPositiveInteger, maxLenStr, isEscKey, doElement}; //дописал MaxLenStr
+export {getRandomArrayElement, getRandomPositiveInteger, maxLenStr}; //дописал MaxLenStr
